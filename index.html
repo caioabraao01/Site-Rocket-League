@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket League: MENU</title>
+    <style>
+        .rlmovie {
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            overflow: hidden;
+        }
+        .rlmovie video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .rlmovie .content {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+            margin: 0 auto;
+            height: auto;
+            text-align: center;
+            top: 9%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="rlmovie">
+        <video autoplay muted loop>
+            <source src="4k RL.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <a>
+                <p><img id="imagem1" src="img/botaocarro.png" height="100" width="300" onclick="linkcarro()"></p>
+                <p><img id="imagem2" src="img/botaoestadio.png" height="100" width="300" onclick="linkestadio()"></p>
+                <p><img id="imagem3" src="img/botaomodo.png" height="100" width="300" onclick="linkmodo()"></p>
+                <p><img id="imagem4" src="img/botaosobre.png" height="100" width="300" onclick="linksobre()"></p>
+            </a>
+        </div>
+    </div>
+
+    <script>
+
+        var fator_lupa = 1.05;
+    
+        var entidade1 = document.getElementById('imagem1');
+        entidade1.onmouseover = function () { this.style.width = (this.clientWidth * fator_lupa) + "px"; };
+        entidade1.onmouseout = function () { this.style.width = (this.clientWidth / fator_lupa) + "px"; };
+        
+        var entidade2 = document.getElementById('imagem2');
+        entidade2.onmouseover = function () { this.style.width = (this.clientWidth * fator_lupa) + "px"; };
+        entidade2.onmouseout = function () { this.style.width = (this.clientWidth / fator_lupa) + "px"; };
+    
+        var entidade3 = document.getElementById('imagem3');
+        entidade3.onmouseover = function () { this.style.width = (this.clientWidth * fator_lupa) + "px"; };
+        entidade3.onmouseout = function () { this.style.width = (this.clientWidth / fator_lupa) + "px"; };
+       
+        var entidade4 = document.getElementById('imagem4');
+        entidade4.onmouseover = function () { this.style.width = (this.clientWidth * fator_lupa) + "px"; };
+        entidade4.onmouseout = function () { this.style.width = (this.clientWidth / fator_lupa) + "px"; };
+
+        function linkcarro(){
+            window.location.href='carros.html';
+        }
+        function linkestadio(){
+            window.location.href='estadios.html';
+        }
+        function linkmodo(){
+            window.location.href='modos.html';
+        }
+        function linksobre(){
+            window.location.href='sobre.html';
+        }    
+    </script>
+</body>
+</html>

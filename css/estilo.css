@@ -1,0 +1,190 @@
+html, body{
+	height: 100%;
+}
+#teste{
+	height: 80%;
+}
+
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background: #00008B;	
+}
+
+/* Inicio Estadios
+---------------------------------*/
+
+
+/* Barra de navegação 
+---------------------------------*/
+.navbar-light{
+	background: #0000CD;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+}
+
+.navbar-collapse .navbar-nav .nav-link:visited {
+	color: #FFF;
+}
+
+.navbar-light .navbar-toggler{
+
+	color: white;
+}
+
+
+/* Fim Barra de navegação 
+---------------------------------*/
+
+/*INICIO ESTADIOS*/ 
+
+#aquadome{
+	background: url(../img/aquadome.png),
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#field{
+	background: url(../img/estadio2.png),
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#neotokyo{
+	background: url(../img/neotokyo.png),
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#Farmstead{
+	 background: url(../img/Farmstead.png),
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#saltyshores{
+	 background: url(../img/SaltyShores.png),
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+
+
+/* Fim Estadios
+---------------------------------*/
+
+
+ /*INICIO MODOS*/ 
+ #normal{
+	background: url(../img/normal.jpg) no-repeat,
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#dropshot{
+	background: url(../img/dropshot.jpg) no-repeat ,
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#snowday{
+	background: url(../img/snowday.jpg) no-repeat,
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#rumble{
+	 background: url(../img/rumble.jpg) no-repeat,
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#hoops{
+	 background: url(../img/basquete.jpg) no-repeat,
+				linear-gradient(50deg, #9ec7a6,#d4cacc);
+
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+/*FIM MODOS*/ 
+
+
+/* Rodape*/ 
+
+.back-to-top{
+	color: #FFF;
+	font-size: 40px;
+}
+
+.back-to-top:hover{
+	font-size: 27px;
+}
+
+#rodape{
+	background: #0000CD;
+}
+
+#rodape h4{
+	color: #FFF;
+}
+
+#rodape a{
+	color: #FFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#rodape li a:hover{
+	color: #fff;
+	border-bottom: 2px solid #FFF;
+}
+
+#rodape p{
+	font-size: 19px;
+	color: #FFF;
+}
+
+#topo{
+	text-align: center;
+	font-size: 19px;
+}
+
+
+/* Fim Rodape
+---------------------------------*/
+
+#carros{
+	color: #FFF;
+}
+
+#Rocket{
+	margin-top: 120px;
+}
+
+figure.foto-legenda img {  /* seleciona todas as img dentro de figure com a classe foto-legenda */
+    border: 5px solid #FFF;
+}
